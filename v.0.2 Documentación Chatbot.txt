@@ -1,0 +1,17 @@
+By: David Navarrete Fernández
+Sprint 1 (18/06-29/06)
+
+v 0.2
+
+-Creación de todos los paquetes del proyecto (component, configuration, constant, controller, converter, entity, model, repository)
+-Creación del LogRepository que extiende de JpaRepository.
+-Creación de Log Entity para subir a la base de datos todos los movimientos del usuario.
+-Creación del RequestTimeInterceptor y del WebMvcConfiguration para ver y calcular tiempos en el Log de la aplicación.
+
+
+v 0.1
+
+
+-Creación del proyecto inicial.
+-En el pom.xml se declaran las dependencias de "Spring Security", "JPA", "Thymeleaf", "MySQLConnector", "Web".
+-En el "application.yml" se declara la dirección de la conexión con su usuario y contraseña. Esta conexión va a ser a la B.D. en remoto en el puerto 192.168.1.157. Se contemplan distintas opciones de jpa, como la estrategia de nombrado. Se especifica el dialecto de hibernate. Se establece que el caché de thymeleaf es falso.
